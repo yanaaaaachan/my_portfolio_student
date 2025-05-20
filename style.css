@@ -1,0 +1,193 @@
+/* .myLogo{
+    width:7%;
+} */
+.header{
+    background-color: 	#FCFEFF;
+    display: flex;
+    border-radius: 30px;
+}
+.header a{
+    color: 	#454846;
+}
+
+body{
+    font-family: 'Kiwi Maru', serif;
+    color: 	#454846;
+    background-color:#FCFEFF;
+}
+.marker_index{
+    background:linear-gradient(transparent 60%, #ff6 60%);
+}
+nav {
+    height: 30px;
+    padding: 25px 0;
+    margin: 0px 0px 0px 20%;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+
+    padding: 4px 35px;
+    margin: 0px 0px 10px 20px;
+    /* float: left; */
+    text-decoration: none;
+}
+
+/* .logo{
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 5px;
+} */
+.social_icon{
+    display: flex;
+padding-left: 190px;
+padding-top: 20px;
+}
+.insta{
+    width:40px;
+    height: 40px;
+    padding-bottom: 10px;
+}
+.x{
+    margin-left: 20px;
+    width:40px;
+    height: 40px;
+    padding-bottom: 10px;
+}
+
+.my_face{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+}
+.my_face_bottom{
+    margin:8% 0% 3% 0%;
+    border: 2px solid #DEAD6A;
+}
+.not_flex_myface{
+    display: block;
+    margin-right:8%;
+}
+.main{
+    margin-top:3%;
+    margin-left:8%;
+    margin-bottom: 3%;
+    margin-right: 8%;
+}
+.intro_flex{
+    display: flex;
+}
+
+/* #my_pr p{
+    max-width: 50%;
+} */
+#skill img{
+    width:30px;
+    height:30px;
+    object-fit: cover;
+    vertical-align:middle;
+    margin: 0px 5px 5px 0px;
+}
+
+.intro_details h2{
+    border-bottom: 3px solid #DEAD6A;
+    width: fit-content;
+}
+.intro_details{
+    display: flex;
+}
+.intro_details > div {
+    flex: 1;
+    min-width: 200px;
+}
+.intro_details p{
+    margin-bottom: 50px;
+}
+
+/* .intro_details > div {
+    min-width: 200px;
+} */
+#qualification{
+    margin-left: 30px;
+}
+
+/*gakkai.html*/
+.main2 h2{
+    border-bottom: 3px solid #DEAD6A;
+    width: fit-content;
+}
+.abst{
+    max-width: 80%;
+}
+
+/*event.html*/
+.event_date {
+    background-color: #DEAD6A;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 30px;
+    text-align: center;
+    padding: 0; /* ← padding-top は使わない */
+    line-height: normal;
+    flex-shrink: 0; /* 幅縮小を防ぐ（Flex環境下） */
+}
+
+.event{
+    display: flex;
+    margin-top: 30px;
+}
+.event p{
+    max-width: 80%;
+}
+.event_img1{
+    border:2px solid #454846;
+    margin-left: 20px;
+}
+.event_img{
+    margin-left: 20px;
+}
+.event_fairtrade_img{
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+}
+
+/*portfolio.html*/
+.portfolio_date {
+    background-color: rgba(126, 165, 255, 0.518);
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 30px;
+    text-align: center;
+    padding: 0; /* ← padding-top は使わない */
+    line-height: normal;
+    flex-shrink: 0; /* 幅縮小を防ぐ（Flex環境下） */
+}
+.portfolio_fairtrade_img{
+    display: flex;
+}
+.fairtrade_QR{
+    margin-top: auto;
+}
+.event img{
+    margin-top: 70px;
+}
+.event video{
+    margin-top: 70px;
+}
